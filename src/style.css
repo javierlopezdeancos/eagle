@@ -1,0 +1,19 @@
+:root {
+  --egl-space-md: 3rem;
+  --egl-space: 2rem;
+  --egl-space-sm: 1rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

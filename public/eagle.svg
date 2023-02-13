@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.532 39.2" style="-webkit-print-color-adjust:exact" fill="none">
+  <g style="fill:#000">
+    <defs>
+      <linearGradient id="a" x1="1.215" y1=".505" x2="-.233" y2=".546">
+        <stop offset="0" stop-color="#c400de"/>
+        <stop offset="1" stop-color="#f100ba"/>
+      </linearGradient>
+      <pattern patternUnits="userSpaceOnUse" x="0" y="0" height="39.2" width="72.532" data-loading="false" id="b">
+        <path style="fill:url(#a)" d="M0 0h72.532v39.2H0z"/>
+      </pattern>
+    </defs>
+    <path d="M69.716 6.2h-23.8v27.5h10.4s0 5.5-2.7 5.5h-13.5V.7l32.4.4s.4 5.1-2.8 5.1Zm-9.4 16.5c-3.1.1-11.8 0-11.8 0V17h14.5s.4 5.6-2.7 5.7ZM.016.4l32.4-.4v38.5h-13.5c-2.7 0-2.7-5.5-2.7-5.5h10.4V5.5h-23.8C-.384 5.5.016.4.016.4Zm9.5 15.9h14.5V22s-8.7.1-11.8 0c-3.1-.1-2.7-5.7-2.7-5.7Z" fill="url(#b)" class="fills"/>
+  </g>
+</svg>
