@@ -2,6 +2,7 @@
   --egl-space-md: 3rem;
   --egl-space: 2rem;
   --egl-space-sm: 1rem;
+  --egl-space-xs: 0.5rem;
 }
 
 body {

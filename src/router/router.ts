@@ -1,6 +1,6 @@
-import { createRouter, createWebHashHistory } from "vue-router";
-import LoginScreen from "../screens/Login/LoginScreen.vue";
-import IssuesScreen from "../screens/Issues/IssuesScreen.vue";
+import { createRouter, createWebHistory } from "vue-router";
+import LoginScreen from "../users/screens/LoginScreen.vue";
+import IssuesScreen from "../issues/screens/IssuesScreen.vue";
 
 const routes = [
   {
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

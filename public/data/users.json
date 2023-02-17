@@ -1,0 +1,47 @@
+[
+  {
+    "email": "jubsdell0@addtoany.com",
+    "first_name": "Jonathon",
+    "id": 1,
+    "last_name": "Ubsdell",
+    "password": "8MB2juF",
+    "username": "jubsdell0",
+    "avatar": "https://randomuser.me/api/portraits/men/85.jpg"
+  },
+  {
+    "email": "hocurran1@ning.com",
+    "first_name": "Henrieta",
+    "id": 2,
+    "last_name": "O'Curran",
+    "password": "DKccaajNrVNr",
+    "username": "hocurran1",
+    "avatar": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "email": "borriss2@cpanel.net",
+    "first_name": "Bobbye",
+    "id": 3,
+    "last_name": "Orriss",
+    "password": "Y2AFrFk",
+    "username": "borriss2",
+    "avatar": "https://randomuser.me/api/portraits/men/57.jpg"
+  },
+  {
+    "email": "hcorrea3@go.com",
+    "first_name": "Hadria",
+    "id": 4,
+    "last_name": "Correa",
+    "password": "qOxwzPTYh7jz",
+    "username": "hcorrea3",
+    "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+  },
+  {
+    "email": "fwellwood4@scribd.com",
+    "first_name": "Fair",
+    "id": 5,
+    "last_name": "Wellwood",
+    "password": "ISWsFQ",
+    "username": "fwellwood4",
+    "avatar": "https://randomuser.me/api/portraits/men/91.jpg"
+  }
+]
