@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { defineProps } from "vue";
-import type Issue from "@/issues/types/IssueType";
 import IssueItemComponent from "@/issues/components/IssueItemComponent.vue";
+import type Issue from "@/issues/types/IssueType";
 
 const props = defineProps<{
   issues?: Issue[];
@@ -10,10 +10,8 @@ const props = defineProps<{
 </script>
 
 <template>
-  <h1 v-if="props?.title" class="text-h4 text-primary">{{ props.title }}</h1>
-  <IssueItemComponent
-    v-for="issue in props?.issues"
-    :key="issue.id"
-    :issue="issue"
-  />
+  <h1 v-if="props?.title" class="text-h5 text-primary mb-4">
+    {{ props.title }}
+  </h1>
+  <IssueItemComponent v-for="issue in issues" :key="issue.id" :issue="issue" />
 </template>

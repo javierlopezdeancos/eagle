@@ -31,9 +31,9 @@ const rail = ref(true);
           @click.stop="rail = !rail"
         ></v-btn>
       </header>
-      <v-divider></v-divider>
+      <v-divider />
       <section
-        class="d-flex flex-column align-start justify-space-between h-100"
+        class="d-flex flex-column align-start justify-space-between w-100 h-100"
       >
         <IssuesActionsListComponent />
         <UserActionsListComponent />

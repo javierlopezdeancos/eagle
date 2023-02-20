@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import SideBarDrawerComponent from "./SideBarDrawerComponent.vue";
-import MainContentComponent from "./MainContentComponent.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import MainComponent from "@/components/MainComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 </script>
 
 <template>
-  <v-card>
-    <v-layout>
-      <SideBarDrawerComponent />
-      <MainContentComponent>
-        <slot ref="content"></slot>
-      </MainContentComponent>
-    </v-layout>
-  </v-card>
+  <v-layout>
+    <SideBarDrawerComponent />
+    <MainComponent>
+      <HeaderComponent />
+      <slot ref="content"> </slot>
+      <FooterComponent />
+    </MainComponent>
+  </v-layout>
 </template>

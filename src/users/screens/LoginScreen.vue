@@ -27,21 +27,16 @@ const loginUser = async (
 </script>
 
 <template>
-  <v-row
-    class="mb-10"
-    align="center"
-    justify="center"
-    rows="2"
-    sm="1"
-    tag="header"
-  >
-    <v-col cols="12" sm="3" align="center" justify="center">
-      <LogoComponent height="3rem" />
-    </v-col>
-  </v-row>
-  <v-row align="center" justify="center" rows="3" sm="1" tag="main" no-gutters>
-    <v-col cols="12" sm="8">
-      <UserLoginFormComponent @login="loginUser" />
-    </v-col>
-  </v-row>
+  <v-container>
+    <v-row class="mb-15" align="center" justify="center" rows="2" tag="header">
+      <v-col cols="12" align="center" justify="center">
+        <LogoComponent height="3rem" />
+      </v-col>
+    </v-row>
+    <v-row align="center" justify="center" rows="2" tag="main" no-gutters>
+      <v-col cols="12" sm="8">
+        <UserLoginFormComponent @login="loginUser" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>

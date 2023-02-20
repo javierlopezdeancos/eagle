@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineEmits } from "vue";
+import { ref } from "vue";
 import type UserLoginFormLoginPayloadType from "@/users/types/UserLoginFormLoginPayloadType";
 
 const username = ref("");
@@ -26,8 +26,8 @@ const submit = async (): Promise<void> => {
 
 <template>
   <form>
-    <v-row align="center" justify="center" rows="4" sm="1" no-gutters>
-      <v-col class="mb-8" cols="12" sm="12">
+    <v-row align="center" justify="center" rows="3" no-gutters>
+      <v-col class="mb-8" cols="12">
         <v-text-field
           v-model="username"
           label="Usuario"
@@ -40,9 +40,8 @@ const submit = async (): Promise<void> => {
         </v-text-field>
       </v-col>
     </v-row>
-    <v-spacer></v-spacer>
-    <v-row align="center" justify="center" rows="4" sm="1" no-gutters>
-      <v-col cols="12" sm="12">
+    <v-row align="center" justify="center" rows="3" no-gutters>
+      <v-col cols="12">
         <v-text-field
           v-model="password"
           variant="underlined"
@@ -55,8 +54,8 @@ const submit = async (): Promise<void> => {
         ></v-text-field>
       </v-col>
     </v-row>
-    <v-row align="center" justify="center" rows="4" sm="1" no-gutters>
-      <v-col class="mt-16" cols="12" sm="12">
+    <v-row align="center" justify="center" rows="3" no-gutters>
+      <v-col class="mt-16" cols="12">
         <v-btn
           class="w-100"
           :rounded="0"

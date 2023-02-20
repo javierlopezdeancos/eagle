@@ -19,7 +19,7 @@ const actions = [
 </script>
 
 <template>
-  <v-list density="compact" nav>
+  <v-list class="w-100" density="compact" nav>
     <v-list-item
       v-for="action in actions"
       :key="action.title"

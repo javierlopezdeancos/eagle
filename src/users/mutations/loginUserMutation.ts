@@ -1,4 +1,4 @@
-import { getUserByIdQuery } from "@/users/queries/getUserQuery";
+import { getUserByIdQuery } from "@/users/queries/getUserByIdQuery";
 import type User from "@/users/types/UserType";
 
 export const loginUserMutation = async (

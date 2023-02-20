@@ -2,7 +2,7 @@
 
 <template>
   <v-main class="h-screen">
-    <v-container>
+    <v-container class="pa-10 ma-0">
       <slot></slot>
     </v-container>
   </v-main>

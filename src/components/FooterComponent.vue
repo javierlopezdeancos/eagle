@@ -5,9 +5,7 @@ const date = computed(() => new Date().getFullYear());
 </script>
 
 <template>
-  <v-footer>
-    <v-row justify="center" no-gutters>
-      <v-col cols="12" sm="4"> {{ date }} — Eagle </v-col>
-    </v-row>
+  <v-footer class="d-flex align-center justify-center">
+    <span class="text-caption">Eagle, {{ date }}</span>
   </v-footer>
 </template>

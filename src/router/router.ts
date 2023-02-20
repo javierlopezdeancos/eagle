@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import LoginScreen from "../users/screens/LoginScreen.vue";
-import IssuesScreen from "../issues/screens/IssuesScreen.vue";
+import issuesRoute from "@/issues/routes/issuesRoute";
+import issueDetailsRoute from "@/issues/routes/issueDetailsRoute";
 
 const routes = [
   {
@@ -8,11 +9,8 @@ const routes = [
     name: "Home",
     component: LoginScreen,
   },
-  {
-    path: "/issues",
-    name: "Issues",
-    component: IssuesScreen,
-  },
+  issuesRoute,
+  issueDetailsRoute,
 ];
 
 const router = createRouter({
