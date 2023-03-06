@@ -3,6 +3,7 @@
   --egl-space: 2rem;
   --egl-space-sm: 1rem;
   --egl-space-xs: 0.5rem;
+  --egl-color-primary: #f100ba;
 }
 
 body {
@@ -17,4 +18,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.text-color-primary {
+  color: var(--egl-color-primary);
 }

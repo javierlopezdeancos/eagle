@@ -16,15 +16,19 @@ export const useIssuesStore = defineStore("issues", {
   state: () => ({ issues: [] as Issue[] }),
   getters: {
     topIssues(state) {
-      return (range?: number) => {
-        const issues = state.issues.sort(sortByVotes);
+      return (range?: number): Issue[] => {
+        const sortIssues = [...state.issues].sort(sortByVotes);
 
         if (range) {
-          return issues.slice(0, range);
+          return sortIssues.slice(0, range);
         }
 
-        return issues;
+        return [...state.issues];
       };
+    },
+    getIssueById(state) {
+      return (id: number): Issue | undefined =>
+        [...state.issues].find((i) => i.id === id);
     },
   },
   actions: {

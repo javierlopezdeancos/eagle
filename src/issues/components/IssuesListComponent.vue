@@ -10,7 +10,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <h1 v-if="props?.title" class="text-h5 text-primary mb-4">
+  <h1 v-if="props?.title" class="text-h5 text-color-primary mb-4">
     {{ props.title }}
   </h1>
   <IssueItemComponent v-for="issue in issues" :key="issue.id" :issue="issue" />

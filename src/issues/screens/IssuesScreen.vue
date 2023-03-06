@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from "vue";
 import LayoutComponent from "@/components/LayoutComponent.vue";
-import { useIssuesStore } from "@/issues/stores/useIssuesStore";
+import { useIssuesStore } from "@/issues/stores/issuesStore";
 import { useUsersStore } from "@/users/stores/useUsersStore";
 import { getIssuesQuery } from "@/issues/queries/getIssuesQuery";
 import { getUsersQuery } from "@/users/queries/getUsersQuery";
