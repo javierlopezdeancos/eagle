@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
 import IssueItemComponent from "@/issues/components/IssueItemComponent.vue";
 import type Issue from "@/issues/types/IssueType";
 

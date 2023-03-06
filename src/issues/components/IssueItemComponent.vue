@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { computed } from "vue";
 import { useUsersStore } from "@/users/stores/useUsersStore";
 import type Issue from "@/issues/types/IssueType";
 
