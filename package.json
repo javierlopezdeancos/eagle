@@ -2,6 +2,11 @@
   "name": "eagle",
   "private": false,
   "version": "0.1.0",
+  "author": {
+    "name": "Javier Lopez de Ancos",
+    "email": "javierlopezdeancos@outlook.com",
+    "url": "https://javierlopezdeancos.dev"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
