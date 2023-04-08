@@ -4,7 +4,7 @@ import LogoComponent from "../../components/LogoComponent.vue";
 import { useUserStore } from "../stores/useUserStore";
 import UserLoginFormComponent from "@/users/components/UserLoginFormComponent.vue";
 import { loginUserMutation } from "@/users/mutations/loginUserMutation";
-import type UserLoginFormLoginPayloadType from "@/users/types/UserLoginFormLoginPayloadType";
+import type UserLoginFormLoginPayloadType from "@/users/types/LoginUserMutationPayloadType";
 
 const userStore = useUserStore();
 const router = useRouter();

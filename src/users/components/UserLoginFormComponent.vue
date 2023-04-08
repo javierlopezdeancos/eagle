@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import type UserLoginFormLoginPayloadType from "@/users/types/UserLoginFormLoginPayloadType";
+import type UserLoginFormLoginPayloadType from "@/users/types/LoginUserMutationPayloadType.js";
 
 const username = ref("");
 const password = ref("");
